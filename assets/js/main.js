@@ -25,9 +25,9 @@ $(document).ready(function(){
                     template.children('#changeText').hide();
                     template.children('span').text(editedText.val());
                 }
-            })
+            });
            
-        }) 
+        });
         
     });
     

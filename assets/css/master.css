@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 100px;
+}
+
+.ul-container{
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+    top: 150px;
+
+}
+
+ul li {
+    margin-left: 35px;
+}
+
+
+.container{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 10px;
+    box-shadow:6px -2px 17px 1px rgba(0,0,0,0.44);
+}
+
+.inputs{
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs input#userText{
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.336);
+  padding: 5px;
+}
+
+.inputs input#userText:focus{
+    outline: 0;
+}
+
+.inputs input#add{
+    width: 60px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+
+
