@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <title>ToDo</title>
+</head>
+<body>
+    <ul id="onScreen">
+
+    </ul>
+    <input id='userText' type="text" placeholder="Aggiungi un promemoria">
+    <input id='add' type="button" value="Add" >
+
+    <div class="template" style="display:none">
+        <li>
+            <span></span>
+            <input id="changeText" type="text" style="display:none">
+            <button id="edit">modifica</button>
+            <button id="delete">cancella</button>
+        </li>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
